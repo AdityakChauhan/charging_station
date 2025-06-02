@@ -3,9 +3,9 @@ const { Sequelize } = require('sequelize');
 
 // console.log('DB_PASS:', process.env.DB_PASS);
 
-const sequelize = new Sequelize('chargingstations', 'root', process.env.DB_PASS, {
-    host: 'localhost',
-    dialect: 'mysql'
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: 'mysql',
+  logging: false,
 });
 
 async function testConnection() {
