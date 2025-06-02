@@ -1,10 +1,11 @@
 require('dotenv').config({ path: "D://web_dev/charging_station/backend/.env" });
 const { Sequelize } = require('sequelize');
 
-// Use full Railway DB URL
-const sequelize = new Sequelize(process.env.DATABASE_URL, {
-  dialect: 'mysql',
-  logging: false, // optional: turn off SQL logging in console
+// console.log('DB_PASS:', process.env.DB_PASS);
+
+const sequelize = new Sequelize('chargingstations', 'root', process.env.DB_PASS, {
+    host: 'localhost',
+    dialect: 'mysql'
 });
 
 async function testConnection() {
