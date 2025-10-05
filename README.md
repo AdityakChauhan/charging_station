@@ -7,7 +7,7 @@ A full-stack web application for managing electric vehicle charging stations. Bu
 ## Test Account
 ```
 Email: testuser@email.com
-Password: testuserpassword
+Password: testuserpassword (this password is incorrect as of now, new correct password will be provided soon to test the website, sorry for the inconvenience causes ;_;) 
 ```
 
 ## Features
