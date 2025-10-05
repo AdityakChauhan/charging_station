@@ -1,7 +1,15 @@
 # Charging Station Management System
 
 A full-stack web application for managing electric vehicle charging stations. Built with Vue.js, Node.js, Express, and MySQL.
+
 ## Deployed Link: https://chargingstationsapplication.netlify.app/
+
+## Test Account
+```
+Email: testuser@email.com
+Password: testuserpassword
+```
+
 ## Features
 
 - 🔐 User Authentication with JWT
@@ -77,12 +85,6 @@ npm run dev
 The application will be available at:
 - Frontend: http://localhost:5173
 - Backend API: http://localhost:8081
-
-## Test Account
-```
-Email: testuser@email.com
-Password: testuserpassword
-```
 
 ## API Endpoints
 
